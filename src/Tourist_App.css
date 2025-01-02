@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: '100vh';
+  width: '100vw';
+  margin: 0 ;
+  padding: 0;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  background-image: url(/photo/penang.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-image: url(/photo/penang-bridge.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: white;
+  padding: 3rem 0;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.main{
+  flex-grow: 1;
+  padding: 2rem;
+}
+.footer {
+  font-size: 0.9rem;
+  color: #000000;
+  text-align: center;
+  
+}
+/*display the content of the tourist*/
+.card{
+  background-color: wheat;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem auto;/* Centers the box horizontally */
+  width: 70% ;
+  /* Ensures it doesn’t grow too large on larger screens */
+  text-align: left;
+  height: fit-content;
+  
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.small_box_container {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Adds spacing between boxes */
+  margin: 0; /* Adds some spacing around the container */
+  padding: 0;
+  width: 100%;
+  align-items: flex-end;
+  bottom: 0;
+  position: absolute;
+}
+/*Tourist, food beverage,...*/
+.small_box1 {
+  flex: 1;
+  border:1px solid rgba(171, 171, 171, 0.3);;
+  background-color: rgba(40, 40, 40, 0.6);
+  text-align: center;
+  width: 25;
+  padding: 0.25rem; /* Adds padding inside the boxes */
+  color: white; 
+
+}
+
+.custom-link {
+  color: blue;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.custom-link-topic{
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+
+.custom-link-topic:hover{
+  text-decoration:solid;
+}
