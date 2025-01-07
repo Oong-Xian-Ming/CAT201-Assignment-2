@@ -1,10 +1,13 @@
-import './App.css'
+import './Tourist_App.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faClock, faLocationDot, faMoneyBill} from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons/faGlobe';
+import { Link } from 'react-router-dom';
+
 function App() {
   return (
+  
     <div className = "app-container">
       <header className = "header">
         <h1 style={{fontFamily:"'Courier New', Courier, monospace", fontWeight:"bold", fontSize:"7rem"}}>Penang </h1>
@@ -13,18 +16,18 @@ function App() {
       {/* Add a container for the boxes */}
       <div className="small_box_container">
           
-        <a href='tourist' className='custom-link-topic'>
-        <section className="small_box1">Tourist </section>
-        </a>
-        <a href='Food & Beverage' className='custom-link-topic'>
-        <section className="small_box1">Food & Beverage</section>
-        </a>
-        <a href='Accomodation' className='custom-link-topic'>
-        <section className="small_box1">Accomodation</section>
-        </a>
-        <a href='Entertainment' className='custom-link-topic'>
-        <section className="small_box1">Entertainment</section>
-        </a>
+          <Link to="/" className="custom-link-topic">
+            <section className="small_box1">Main </section>
+          </Link>
+          <Link to="/food-beverage" className="custom-link-topic">
+            <section className="small_box1">Food & Beverage</section>
+          </Link>
+          <Link to="/accommodation" className="custom-link-topic">
+            <section className="small_box1">Accommodation</section>
+          </Link>
+          <Link to="/entertainment" className="custom-link-topic">
+            <section className="small_box1">Entertainment</section>
+          </Link>
       </div>
       
       </header>
