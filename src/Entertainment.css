@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.spot {
+  background-color: wheat;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70%;
+  text-align: center;
+  height: fit-content;
+}
+
+.spot-image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+}
+
+.spot-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vh;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0 15% 2vh 15%;
+  text-align: center;
+}
+
+.footer {
+  z-index: 2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 4vh;
+  color: #000000;
+  margin-top: 3vh;
+  text-align: center;
+}
