@@ -15,8 +15,8 @@ function Accommodation() {
           <Link to="/tourist" className="custom-link-topic">
             <section className="small_box1">Tourist</section>
           </Link>
-          <Link to="/accommodation" className="custom-link-topic">
-            <section className="small_box1">Accommodation</section>
+          <Link to="/food-beverage" className="custom-link-topic">
+            <section className="small_box1">Food & Beverage</section>
           </Link>
           <Link to="/entertainment" className="custom-link-topic">
             <section className="small_box1">Entertainment</section>
@@ -42,8 +42,8 @@ function Accommodation() {
         The property showcases authentic architectural elements, including air wells, timber flooring, traditional five-foot walkways, steep heritage wooden staircases, and Chinese roof tiles. Every corner of Ren I Tang radiates a sense of history and character, making it a truly unique and memorable place to stay.
         </p>
 
-        <h2 style={{fontWeight:"bold"}}> Eastern & Oriental Hotel</h2>
-        <img src="/photo/Edison_Hotel.png" alt="Ren I Tang Heritage Inn" className="card-image" />
+        <h2 style={{fontWeight:"bold"}}> The Edison</h2>
+        <img src="/photo/Edison_Hotel.png" alt="The Edison" className="card-image" />
         <p>
 
         Tucked away from the lively UNESCO Heritage district of George Town, The Edison is a beautifully restored 20th-century mansion with a distinctive art deco flair. The property retains its original charm, featuring an open-air courtyard, marble-tiled floors, and intricate Peranakan tiles, while vibrant accents and modern furnishings provide a fresh and inviting atmosphere for guests.
