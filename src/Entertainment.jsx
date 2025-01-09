@@ -140,7 +140,7 @@ function Entertainment() {
       </main>
 
       <footer className="footer">
-        <p>&copy; 2025 CAT Projects.</p>
+        <p>&copy; 2025 Visit Penang. All rights reserved.</p>
       </footer>
     </div>
   );

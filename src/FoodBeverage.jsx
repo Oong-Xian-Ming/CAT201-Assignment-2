@@ -83,7 +83,7 @@ function FoodBeverage() {
         </div>
       </main>
       <footer className="footer">
-        <p>&copy; 2024 CAT Projects</p>
+        <p>&copy; 2025 Visit Penang. All rights reserved.</p>
       </footer>
     </div>
   );
