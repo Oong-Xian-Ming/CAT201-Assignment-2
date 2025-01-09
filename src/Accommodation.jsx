@@ -35,7 +35,7 @@ function Accommodation() {
         The hotel is also home to several exceptional dining options, offering a variety of exquisite cuisines. Guests can enjoy traditional English afternoon tea in the colonial-inspired Palm Court or indulge in fine dining at Sarkies. Afternoon tea at the E&O is a quintessential Penang experience and a must-do, even if your visit to Penang is limited to a single day
         </p>
 
-        <h2 style={{fontWeight:"bold"}}> Eastern & Oriental Hotel</h2>
+        <h2 style={{fontWeight:"bold"}}> Ren I Tang Heritage Inn</h2>
         <img src="/photo/RenITang_Hotel.png" alt="Ren I Tang Heritage Inn" className="card-image" />
         <p>
         Ren I Tang Heritage Inn, nestled in the heart of George Town, occupies a beautifully restored 19th-century building. This boutique hotel spans three interconnected shop houses and exudes historical charm. It features a herbal courtyard, a cozy restaurant, and a small museum on the ground floor, which once served as a medical hall.
