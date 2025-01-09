@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import "./Tourist_App.css";
 import "./Entertainment.css";
+import butterfly from "./assets/images/butterfly.png";
+import gtown from "./assets/images/gtown.jpg";
+import hiddenbar from "./assets/images/hiddenbar.jpg";
+import habitat from "./assets/images/habitat.png";
+import wondafood from "./assets/images/wondafood.jpg";
 
 function Entertainment() {
   return (
@@ -64,11 +69,7 @@ function Entertainment() {
         </p>
         <div className="spot">
           <p className="rectangle-body-text">Penang Hill-The Habitat</p>
-          <img
-            src="https://www.exotravel.com/blog/wp-content/uploads/2018/10/Malaysia-The-Habitat-Penang-Hill-4-Treetop-Walk3.jpg"
-            alt="Penang Hill - The Habitat"
-            className="spot-image"
-          />
+          <img src={habitat} alt="The Habitat" className="spot-image" />
           <p className="spot-description">
             A visit to Penang Hill is a must when you&apos;re in Penang. Head up
             to the island&apos;s highest vantage point at The Habitat, where you
@@ -84,11 +85,7 @@ function Entertainment() {
           <p className="rectangle-body-text">
             Entopia, by Penang Butterfly Farm
           </p>
-          <img
-            src="https://res.cloudinary.com/dcm/image/upload/w_800,h_400,f_auto,dpr_2.0/v1/prod/b/butterfly.jpg"
-            alt="Spot 3"
-            className="spot-image"
-          />
+          <img src={butterfly} alt="Entopia" className="spot-image" />
           <p className="spot-description">
             Entopia by Penang Butterfly Farm is a perfect destination for
             families and butterfly enthusiasts alike. This vibrant attraction is
@@ -104,11 +101,7 @@ function Entertainment() {
           <p className="rectangle-body-text">
             Georgetown&apos;s Unique Street Art
           </p>
-          <img
-            src="https://findingbeyond.com/app/uploads/2017/03/george-town-georgetown-street-art-penang-malaysia-4.jpg"
-            alt="Spot 4"
-            className="spot-image"
-          />
+          <img src={gtown} alt="Georgetown Street Art" className="spot-image" />
           <p className="spot-description">
             Embrace your inner tourist for a day by exploring the renowned
             street art scattered throughout Georgetown. A prime location to
@@ -121,11 +114,7 @@ function Entertainment() {
 
         <div className="spot">
           <p className="rectangle-body-text">WonderFood Museum</p>
-          <img
-            src="https://th.bing.com/th/id/R.e99944a95306fab53ce29a2b85541719?rik=8On86E%2bavCRKdQ&riu=http%3a%2f%2ffravel.co%2fwp-content%2fuploads%2f2020%2f08%2fwonderfood-museum-in-penang.jpg&ehk=%2fNrHJEPI%2bUhBbbDY9p3zqxFNSEWgAXH53DubjqDrWBE%3d&risl=&pid=ImgRaw&r=0"
-            alt="Spot 4"
-            className="spot-image"
-          />
+          <img src={wondafood} alt="Wonderfood Museum" className="spot-image" />
           <p className="spot-description">
             What better way to explore Malaysia&apos;s rich culinary heritage
             than by visiting a museum devoted entirely to food? The WonderFood
@@ -138,11 +127,7 @@ function Entertainment() {
 
         <div className="spot">
           <p className="rectangle-body-text">Penang&apos;s unique Speakasies</p>
-          <img
-            src="https://thepenangite.com/wp-content/uploads/2019/11/hidden-bar-penang-the-mandarin02-768x768.jpg"
-            alt="Spot 4"
-            className="spot-image"
-          />
+          <img src={hiddenbar} alt="Penang Hidden Bar" className="spot-image" />
           <p className="spot-description">
             Penang boasts a vibrant nightlife, with its array of beach bars and
             cocktail lounges, but for a truly thrilling experience, why not add
