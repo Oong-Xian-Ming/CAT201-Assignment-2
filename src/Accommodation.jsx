@@ -56,7 +56,7 @@ function Accommodation() {
         
       </main>
       <footer className="footer">
-        <p>&copy; 2024 CAT Projects</p>
+        <p>&copy; 2025 CAT Projects</p>
       </footer>
     </div>
   );
