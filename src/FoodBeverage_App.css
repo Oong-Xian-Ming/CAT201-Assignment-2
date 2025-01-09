@@ -21,7 +21,6 @@
   position: relative;
   z-index: 2;
   width: 80%;
-  height: 106vh;
   background-color: rgb(245, 222, 179);
   border: rgb(0, 0, 0);
   border-width: 1px;
@@ -31,14 +30,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 5vh;
-  padding-top: 3vh;
+  padding: 3vh 3vh;
 }
 
 .rectangle-body-2 {
   position: relative;
   z-index: 2;
   width: 80%;
-  height: 103vh;
   background-color: rgb(245, 222, 179);
   border: rgb(0, 0, 0);
   border-width: 1px;
@@ -48,14 +46,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 5vh;
-  padding-top: 3vh;
+  padding: 3vh 3vh;
 }
 
 .rectangle-body-3 {
   position: relative;
   z-index: 2;
   width: 80%;
-  height: 80vh;
   background-color: rgb(245, 222, 179);
   border: rgb(0, 0, 0);
   border-width: 1px;
@@ -65,14 +62,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 2vh;
-  padding-top: 3vh;
+  padding: 3vh 3vh;
 }
 
 .rectangle-body-4 {
   position: relative;
   z-index: 2;
   width: 80%;
-  height: 79vh;
   background-color: rgb(245, 222, 179);
   border: rgb(0, 0, 0);
   border-width: 1px;
@@ -82,7 +78,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 2vh;
-  padding-top: 3vh;
+  padding: 3vh 3vh;
 }
 
 .rectangle-body-text {
