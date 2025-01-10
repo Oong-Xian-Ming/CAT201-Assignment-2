@@ -21,7 +21,7 @@ function Accommodation() {
             fontSize: "2rem",
           }}
         >
-          Accomodation
+          Accommodation
         </h2>
 
         <div className="small_box_container">
@@ -40,7 +40,7 @@ function Accommodation() {
         </div>
       </header>
       <main className="main">
-        <h2>Discover the Best Accomodation in Penang!</h2>
+        <h2>Discover the Best Accommodation in Penang!</h2>
         <p
           style={{
             fontFamily: "'Poppins', sans-serif",
@@ -52,7 +52,7 @@ function Accommodation() {
             fontSize: "3.5rem",
           }}
         >
-          Top 3 Tourist Accomodation
+          Top 3 Tourist Accommodation
         </p>
         <section className="card">
           <h2 style={{ fontWeight: "bold" }}> Eastern & Oriental Hotel</h2>
