@@ -53,7 +53,7 @@ function Entertainment() {
         <p style={{ color: "gray", fontSize: "0.9rem" }}>
           Begin your journey with the Endless Entertainments.
         </p>
-        <h2>Endulge in only the Best Entertainment in Penang!</h2>
+        <h3>Endulge in only the Best Entertainment in Penang!</h3>
         <p
           style={{
             fontFamily: "'Poppins', sans-serif",
@@ -62,7 +62,7 @@ function Entertainment() {
             letterSpacing: "0.2rem",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)",
             textAlign: "center",
-            fontSize: "3.5rem",
+            fontSize: "6vw", // This adjusts the font size based on the viewport width
           }}
         >
           Top 5 Entertainments

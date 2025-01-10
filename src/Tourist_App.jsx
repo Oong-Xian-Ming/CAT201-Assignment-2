@@ -63,7 +63,7 @@ function App() {
             letterSpacing: "0.2rem",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)",
             textAlign: "center",
-            fontSize: "3.5rem",
+            fontSize: "6vw",
           }}
         >
           Top 3 Tourist Location

@@ -40,7 +40,16 @@ function Accommodation() {
         </div>
       </header>
       <main className="main">
-        <h2>Discover the Best Accommodation in Penang!</h2>
+        <h3
+          style={{
+            textAlign: "center",
+            fontSize: "2.5rem",
+            color: "#333333",
+            margin: "1rem 0",
+          }}
+        >
+          Discover the Best Accommodation in Penang!
+        </h3>
         <p
           style={{
             fontFamily: "'Poppins', sans-serif",
@@ -49,7 +58,7 @@ function Accommodation() {
             letterSpacing: "0.2rem",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)",
             textAlign: "center",
-            fontSize: "3.5rem",
+            fontSize: "6vw", // This adjusts the font size based on the viewport width
           }}
         >
           Top 3 Tourist Accommodation

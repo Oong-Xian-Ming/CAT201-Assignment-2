@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Tourist_App.css";
-import React from "react";
+import "react";
 import "./FoodBeverage_App.css";
 import ckt from "./assets/images/ckt.jpg";
 import al from "./assets/images/al.jpg";
@@ -46,7 +46,7 @@ function FoodBeverage() {
         </div>
       </header>
       <main className="main">
-        <h2>Discover the Best Food & Beverages in Penang!</h2>
+        <h3>Discover the Best Food & Beverages in Penang!</h3>
         <div className="rectangle-body">
           <div className="rectangle-body-1">
             <p className="rectangle-body-text">Char Koay Teow</p>
@@ -68,7 +68,7 @@ function FoodBeverage() {
             <p className="rectangle-body-text">Nasi Lemak</p>
             <img src={nl} alt="Nasi Lemak" />
             <p className="food-description">
-              Malaysia's national dish, featuring fragrant coconut rice, sambal,
+              Malaysia&apos;s national dish, featuring fragrant coconut rice, sambal,
               and a variety of toppings.
             </p>
           </div>

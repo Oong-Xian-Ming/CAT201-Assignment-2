@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&family=Lato:wght@400&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&family=Lato:wght@400&display=swap");
 
 .main {
   display: flex;
@@ -118,4 +118,179 @@
   color: #000000;
   margin-top: 3vh;
   text-align: center;
+}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&family=Lato:wght@400&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+h3 {
+  text-align: center; /* Center-align the heading */
+  font-size: 2.5rem;
+  color: #333333;
+  margin: 1rem 0;
+}
+
+.rectangle-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vh;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%; /* Adjusted for better responsiveness */
+  margin: 0 auto;
+}
+
+.rectangle-body-1,
+.rectangle-body-2,
+.rectangle-body-3,
+.rectangle-body-4 {
+  position: relative;
+  z-index: 2;
+  width: 90%; /* Adjusted for responsiveness */
+  max-width: 600px; /* Limit maximum width on larger screens */
+  background-color: rgb(245, 222, 179);
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 4vh;
+  padding: 3vh;
+}
+
+.rectangle-body-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3.5vh; /* Use relative units for better scalability */
+  line-height: 1.2;
+  margin: 0 0 2vh 0;
+  color: #6c006e;
+  text-align: center; /* Center aligns text */
+}
+
+.rectangle-body-1 img,
+.rectangle-body-2 img,
+.rectangle-body-3 img,
+.rectangle-body-4 img {
+  width: 80%; /* Adjusted for responsiveness */
+  max-width: 400px; /* Limit maximum image size */
+  height: auto;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+}
+
+.food-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2.2vh; /* Smaller size for scalability */
+  line-height: 1.6;
+  color: #333333;
+  margin: 0 10%; /* Adjusted for better padding */
+  text-align: center;
+}
+
+.bottom-text {
+  z-index: 2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 3.5vh;
+  color: #000000;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+/* Media Queries */
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  .rectangle-body {
+    gap: 2vh;
+    width: 95%; /* Full width for smaller screens */
+  }
+
+  .rectangle-body-1,
+  .rectangle-body-2,
+  .rectangle-body-3,
+  .rectangle-body-4 {
+    width: 100%; /* Full width for better usability */
+    padding: 2vh;
+  }
+
+  .rectangle-body-text {
+    font-size: 3vh;
+  }
+
+  .food-description {
+    font-size: 2vh;
+    margin: 0 5%; /* Less margin for smaller screens */
+  }
+
+  .bottom-text {
+    font-size: 3vh;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .rectangle-body {
+    gap: 3vh;
+    width: 90%;
+  }
+
+  .rectangle-body-1,
+  .rectangle-body-2,
+  .rectangle-body-3,
+  .rectangle-body-4 {
+    width: 85%;
+    padding: 3vh;
+  }
+
+  .rectangle-body-text {
+    font-size: 3.2vh;
+  }
+
+  .food-description {
+    font-size: 2.2vh;
+    margin: 0 8%;
+  }
+
+  .bottom-text {
+    font-size: 3.2vh;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) {
+  .rectangle-body {
+    gap: 4vh;
+    width: 80%;
+  }
+
+  .rectangle-body-1,
+  .rectangle-body-2,
+  .rectangle-body-3,
+  .rectangle-body-4 {
+    max-width: 700px;
+    padding: 4vh;
+  }
+
+  .rectangle-body-text {
+    font-size: 4vh;
+  }
+
+  .food-description {
+    font-size: 2.5vh;
+    margin: 0 10%;
+  }
+
+  .bottom-text {
+    font-size: 4vh;
+  }
 }
